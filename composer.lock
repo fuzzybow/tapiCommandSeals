@@ -1,0 +1,158 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "a3ee4d37cf554287424c1705500cd769",
+    "content-hash": "6e5f31275416cdb8694d7bfa8c4bc781",
+    "packages": [
+        {
+            "name": "kzykhys/steganography",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kzykhys/Steganography.git",
+                "reference": "d60fdf365679a1ed5dcca6e3a4741df245c16bd6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kzykhys/Steganography/zipball/d60fdf365679a1ed5dcca6e3a4741df245c16bd6",
+                "reference": "d60fdf365679a1ed5dcca6e3a4741df245c16bd6",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/options-resolver": "~2.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kazuyuki Hayashi",
+                    "email": "hayashi@valnur.net"
+                }
+            ],
+            "description": "Simple implementation of Steganography (Hiding a hidden message within an image)",
+            "keywords": [
+                "steganography"
+            ],
+            "time": "2014-01-24 17:50:32"
+        },
+        {
+            "name": "pyrou/morpheus",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pyrou/Morpheus.git",
+                "reference": "33553cf593b4b94f72e427e43171bb8b7209b08f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pyrou/Morpheus/zipball/33553cf593b4b94f72e427e43171bb8b7209b08f",
+                "reference": "33553cf593b4b94f72e427e43171bb8b7209b08f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Morpheus\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Hurni",
+                    "email": "michael.hurni@gmail.com"
+                }
+            ],
+            "description": "Library to encrypt and decrypt data in colors of a picture. Process also known as steganography",
+            "keywords": [
+                "ImageMagick",
+                "data encryption",
+                "gdlib",
+                "image encryption",
+                "imagick",
+                "steganography"
+            ],
+            "time": "2015-03-19 19:36:26"
+        },
+        {
+            "name": "symfony/options-resolver",
+            "version": "v2.8.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/options-resolver.git",
+                "reference": "d1e6e9182d9e5af6367bf85175e708f8b4a828c0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/d1e6e9182d9e5af6367bf85175e708f8b4a828c0",
+                "reference": "d1e6e9182d9e5af6367bf85175e708f8b4a828c0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.8-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\OptionsResolver\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony OptionsResolver Component",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "config",
+                "configuration",
+                "options"
+            ],
+            "time": "2016-01-21 09:05:51"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "kzykhys/steganography": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
